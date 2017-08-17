@@ -1,0 +1,86 @@
+{
+  "name": "express-seed",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "express",
+    "typescript"
+  ],
+  "author": {
+    "name": "Ryan Hutchison",
+    "email": "ryan.hutchison@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "yarn": ">= 0.18.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:live": "nodemon",
+    "lint": "npm run tslint",
+    "mocha": "mocha test/ --recursive",
+    "start": "npm run build:live",
+    "test": "npm run lint && npm run mocha",
+    "tslint": "tslint --project ."
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "cors": "^2.8.4",
+    "helmet": "^3.8.1",
+    "mongoose": "^4.11.7",
+    "serve-favicon": "^2.4.3",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/acl": "^0.4.34",
+    "@types/body-parser": "^1.16.4",
+    "@types/compression": "0.0.33",
+    "@types/cors": "^2.8.1",
+    "@types/glob": "^5.0.31",
+    "@types/gulp-util": "^3.0.31",
+    "@types/helmet": "0.0.36",
+    "@types/jsonwebtoken": "^7.2.3",
+    "@types/lodash": "^4.14.73",
+    "@types/method-override": "0.0.29",
+    "@types/mongoose": "^4.7.20",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^8.0.23",
+    "@types/passport": "^0.3.4",
+    "@types/passport-facebook-token": "^0.4.30",
+    "@types/passport-jwt": "^2.0.24",
+    "@types/serve-favicon": "^2.2.28",
+    "@types/winston": "^2.3.4",
+    "@types/yargs": "^8.0.2",
+    "acl": "^0.4.11",
+    "config": "^1.26.2",
+    "eslint": "^4.4.1",
+    "express": "^4.15.4",
+    "glob": "^7.1.2",
+    "gulp-util": "^3.0.8",
+    "jsonwebtoken": "^8.0.1",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.9",
+    "mocha": "^3.5.0",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-facebook-token": "^3.3.0",
+    "passport-jwt": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.6.0",
+    "typescript": "^2.4.2",
+    "yargs": "^8.0.2"
+  }
+}
